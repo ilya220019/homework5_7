@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newFragment">
+
+    <fragment
+        android:id="@+id/newFragment"
+        android:name="vef.ter.homework5_7.ui.NewFragment"
+        android:label="fragment_new"
+        tools:layout="@layout/fragment_new" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="vef.ter.homework5_7.ui.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>
